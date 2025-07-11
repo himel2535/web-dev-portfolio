@@ -8,6 +8,10 @@
 }
 /* Shared Styles */
 
+.text-center {
+    text-align: center;
+}
+
 .secondary-bg {
     background-color: #FFF8F3 ;
 }
@@ -140,6 +144,29 @@ main {
     padding: 50px 30px;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
     border-radius: 5px;
-    
-    
+      
+}
+
+/* resume section styles */
+
+.resume-container {
+    display: flex;
+    gap: 25px;
+}
+.experience-description{
+    color: #757575;
+    font-size: 16px;
+}
+.experience-sub-title {
+    color:#757575 ;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.resume hr {
+    margin: 30px 0px;
+}
+
+.resume-download-cv {
+    margin-top: 50px;
 }
